@@ -24,7 +24,9 @@ while True:
 
                 gemelos=[]
 
-                
+                gemelos=[(numeros_alma[x],numeros_alma[x+1]) for x in range (len(numeros_alma)-1) if numeros_alma[x+1]-numeros_alma[x]==2]  
+
+                print(gemelos)
                 break
 
 
